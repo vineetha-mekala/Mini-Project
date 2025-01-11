@@ -55,11 +55,11 @@ Visualization of traffic patterns over time.
 
 # System Requirements
 
-1. Python – 3.x (We used python 3.8.8 in this project)
-2. OpenCV – 4.4.0
+1. Python – 3.x (We used python 3.8.8 in this project) , 
+2. OpenCV – 4.4.0 , 
 It is strongly recommended to run DNN models on GPU.
 You can install OpenCV via “pip install opencv-python opencv_contrib-python”.
-3. Numpy – 1.20.3
+3. Numpy – 1.20.3 , 
 4. YOLOv3 Pre-trained model weights and Config Files.
 
 # Methodology Overview
@@ -76,10 +76,10 @@ The project on vehicle detection, classification, and counting using OpenCV and 
 
 # Future Scope
 
-Real-Time Traffic Monitoring
-Counting Vehicles at Toll Booths
-Improving Traffic Light Timing
-Parking Lot Management
-Enhancing Road Safety
-Data Collection for Urban Planning
+Real-Time Traffic Monitoring, 
+Counting Vehicles at Toll Booths, 
+Improving Traffic Light Timing, 
+Parking Lot Management, 
+Enhancing Road Safety, 
+Data Collection for Urban Planning.
 
