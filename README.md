@@ -40,14 +40,14 @@ This solution will offer higher accuracy, reduce the need for manual interventio
 # System Architecture
 
 The architecture of our system consists of:
-#Input:
+1. Input:
 A video stream from a surveillance camera positioned at a traffic intersection.
-#Processing Unit: 
+2. Processing Unit: 
 Using OpenCV libraries to:(YOLO)
 Preprocess the video (resize, convert to grayscale).
 Apply vehicle detection algorithms (like Haar cascades or deep learning models).
 Classify detected vehicles based on their features.
-#Output: 
+3. Output: 
 A user-friendly interface displaying:
 Real-time vehicle counts.
 Types of vehicles detected (e.g., car, truck, bus).
@@ -64,11 +64,11 @@ You can install OpenCV via “pip install opencv-python opencv_contrib-python”
 
 # Methodology Overview
 
-Data Collection: Obtain video footage from a busy intersection to ensure diverse vehicle types and traffic conditions.
-Preprocessing: Use techniques such as image resizing and noise reduction to improve the quality of video frames for better detection.
-Vehicle Detection: Implement OpenCV algorithms that identify vehicles within the frames. This may involve training a model on annotated images for better accuracy.
-Classification: Use feature extraction techniques to differentiate between vehicle types based on size, shape, and other visual characteristics.
-Counting Logic: Develop a system to track vehicles as they enter and exit the camera’s field of view, ensuring accurate counts even in high-traffic situations.
+1. Data Collection: Obtain video footage from a busy intersection to ensure diverse vehicle types and traffic conditions.
+2. Preprocessing: Use techniques such as image resizing and noise reduction to improve the quality of video frames for better detection.
+3. Vehicle Detection: Implement OpenCV algorithms that identify vehicles within the frames. This may involve training a model on annotated images for better accuracy.
+4. Classification: Use feature extraction techniques to differentiate between vehicle types based on size, shape, and other visual characteristics.
+5. Counting Logic: Develop a system to track vehicles as they enter and exit the camera’s field of view, ensuring accurate counts even in high-traffic situations.
 
 # Conclusion
 
@@ -76,10 +76,10 @@ The project on vehicle detection, classification, and counting using OpenCV and 
 
 # Future Scope
 
-Real-Time Traffic Monitoring, 
-Counting Vehicles at Toll Booths, 
-Improving Traffic Light Timing, 
-Parking Lot Management, 
-Enhancing Road Safety, 
-Data Collection for Urban Planning.
+1. Real-Time Traffic Monitoring, 
+2. Counting Vehicles at Toll Booths, 
+3. Improving Traffic Light Timing, 
+4. Parking Lot Management, 
+5. Enhancing Road Safety, 
+6. Data Collection for Urban Planning.
 
