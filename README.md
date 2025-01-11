@@ -9,11 +9,11 @@ This project aims to develop a system for counting, detecting, and classifying v
 # Introduction
 
 Understanding vehicle traffic is essential for managing urban environments. Accurate vehicle counting and classification help in:
-# Traffic Management:
+#Traffic Management:
 By analyzing vehicle flow, authorities can optimize traffic signals and reduce congestion.
-# Urban Planning:
+#Urban Planning:
 Data on vehicle types can inform infrastructure improvements and public transportation planning.
-# Safety Improvements:  
+#Safety Improvements:  
 Monitoring traffic patterns helps identify dangerous areas and implement safety measures.
 
 Current methods, like manual counting and physical sensors, often fall short due to high costs and limitations in accuracy. With advancements in computer vision, we can automate these tasks more effectively.
@@ -21,11 +21,11 @@ Current methods, like manual counting and physical sensors, often fall short due
 # Existing System
 
 Many existing systems rely on:
-# Physical Sensors: 
+#Physical Sensors: 
 These devices can be expensive to install and maintain. They may also have blind spots where vehicles are not detected.
-# Manual Counting:
+#Manual Counting:
 This method is labor-intensive and prone to human error, leading to inaccurate data collection.
-# Basic Camera Systems: 
+#Basic Camera Systems: 
 These systems often struggle with varying lighting conditions and may misidentify vehicles, affecting overall data quality.
 These limitations highlight the need for a more robust solution that utilizes modern technology.
 
@@ -40,14 +40,14 @@ This solution will offer higher accuracy, reduce the need for manual interventio
 # System Architecture
 
 The architecture of our system consists of:
-# Input:
+#Input:
 A video stream from a surveillance camera positioned at a traffic intersection.
-# Processing Unit: 
+#Processing Unit: 
 Using OpenCV libraries to:(YOLO)
 Preprocess the video (resize, convert to grayscale).
 Apply vehicle detection algorithms (like Haar cascades or deep learning models).
 Classify detected vehicles based on their features.
-# Output: 
+#Output: 
 A user-friendly interface displaying:
 Real-time vehicle counts.
 Types of vehicles detected (e.g., car, truck, bus).
